@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fondo circular -->
+  <circle cx="50" cy="50" r="48" fill="#000000" stroke="#00ff00" stroke-width="2"/>
+  
+  <!-- Símbolo técnico/hacker -->
+  <g stroke="#00ff00" stroke-width="2" fill="none">
+    <!-- Triángulo superior -->
+    <polygon points="50,15 75,45 25,45" stroke="#00ff00" fill="none"/>
+    
+    <!-- Líneas de código -->
+    <line x1="30" y1="55" x2="45" y2="55"/>
+    <line x1="55" y1="55" x2="70" y2="55"/>
+    
+    <line x1="25" y1="65" x2="40" y2="65"/>
+    <line x1="50" y1="65" x2="75" y2="65"/>
+    
+    <!-- Triángulo inferior invertido -->
+    <polygon points="50,85 75,55 25,55" stroke="#00ff00" fill="none"/>
+  </g>
+  
+  <!-- Punto central -->
+  <circle cx="50" cy="50" r="3" fill="#00ff00"/>
+</svg>
